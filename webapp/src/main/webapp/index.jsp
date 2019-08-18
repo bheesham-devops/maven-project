@@ -5,3 +5,4 @@ Hello, World!
 <h4>FULL CI/CD Process</h4>
 
 <h1>DOCKER IMAGE</h1>
+Checking
