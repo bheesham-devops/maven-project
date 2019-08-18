@@ -4,10 +4,4 @@ Hello, World!
 <h3>Testing</h3>
 <h4>FULL CI/CD Process</h4>
 
-
-
-
-TWO SEPARATE JOBS FOR CODE QUALITY AND DEPLOYMENT ON TOMCAT
-
-MASTER
-Successful through Docker Image
+<h1>DOCKER IMAGE</h1>
