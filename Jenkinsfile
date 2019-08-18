@@ -12,7 +12,7 @@ pipeline{
                 echo "Show CheckStyle Error in Graph"
                 checkstyle canComputeNew: false, defaultEncoding: '', healthy: '', pattern: '', unHealthy: ''
                 echo "Showing Trend for Junit separately"
-                junit '**/surefire-reports/.xml'
+                junit '**/surefire-reports/*.xml'
             }
         }
 
