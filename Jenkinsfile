@@ -7,7 +7,7 @@ pipeline{
             }
         }
 
-        stage('Build') {
+        stage('build') {
             steps{
                 echo "This is initializing stage"
             }
