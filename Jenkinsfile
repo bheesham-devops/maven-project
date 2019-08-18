@@ -9,6 +9,8 @@ pipeline{
             steps{
                 echo "This is initializing stage"
                 sh label: '', script: 'mvn clean package checkstyle:checkstyle'
+                echo "Show CheckStyle Error in Graph"
+                checkstyle canComputeNew: false, defaultEncoding: '', healthy: '', pattern: '', unHealthy: ''
             }
         }
 
