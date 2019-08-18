@@ -10,3 +10,4 @@ Hello, World!
 TWO SEPARATE JOBS FOR CODE QUALITY AND DEPLOYMENT ON TOMCAT
 
 MASTER
+Successful through Docker Image
