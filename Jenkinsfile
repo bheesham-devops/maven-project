@@ -11,7 +11,7 @@ pipeline{
                 sh label: '', script: 'mvn clean package checkstyle:checkstyle'
             }
 
-            Post{
+            post{
                 success {
                 echo "Show CheckStyle Error in Graph"
                 checkstyle canComputeNew: false, defaultEncoding: '', healthy: '', pattern: '', unHealthy: ''
