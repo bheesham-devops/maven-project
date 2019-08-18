@@ -8,7 +8,7 @@ pipeline{
         stage('init') {
             steps{
                 echo "This is initializing stage"
-                sh label: '', script: 'mvn clean package checksytle:checkstyle'
+                sh label: '', script: 'mvn clean package checkstyle:checkstyle'
             }
         }
 
